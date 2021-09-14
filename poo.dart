@@ -6,10 +6,6 @@ class Pessoa {
     Pessoa(this._nome, this._idade, this._altura);
 
     int get idade => _idade;
-    set idade(int idade) {
-        if(idade > 0)
-            idade = _idade;
-    }
 
     double get altura => _altura;
     set altura(double altura) {
